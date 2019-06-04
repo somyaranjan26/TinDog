@@ -1,0 +1,160 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ffc107;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 13%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.title-image {
+  margin: 40px 0 0 80px;
+  width: 70%;
+  transform: rotate(-13deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #fbd685;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ffc107;
+}
+
+#testimonials {
+  background-color: #ffc107;
+}
+
+.testimonials-image {
+  width: 20%;
+  border-radius: 80%;
+  margin: 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ffc107;
+  padding-bottom: 1px;
+}
+
+.press-logo {
+  width:  15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ffc107;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icons {
+  padding: 20px 10px;
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+    margin-left: 0px;
+  }
+
+}
